@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+.btnAdote {
+    background-color: #F97415;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+}
+#nomeDoPet {
+    color: #F97415;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
