@@ -167,3 +167,40 @@ article {
     }
   }
 }
+footer {
+  background-color: #3f4752;
+  color: white;
+}
+
+
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.footerTop p {
+  max-width: 500px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.footerTop nav {
+  display: flex;
+  width: 7%;
+  justify-content: space-around;
+}
+
+footer img {
+  cursor: pointer;
+}
+
+
+.finalFooter {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border-top: 1px solid #8490a0;
+}
+
