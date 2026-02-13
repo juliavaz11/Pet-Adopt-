@@ -16,16 +16,11 @@ header {
   .btnAdote {
     background-color: #f97415;
     color: #ffffff;
-    //1ª Opção de mexer no tamanho do botão width/height:
-    // width: 8%;
-    // height: 5vh;
     font-size: 1.25rem;
     border-radius: 10px;
     font-weight: 700;
     border: none;
     cursor: pointer;
-
-    //2ª Opção de mexer no tamanho do botão padding:
     padding: 20px;
   }
 }
@@ -53,7 +48,6 @@ article {
   font-size: 3.75rem;
 }
 
-//Galeria de imagens , imagens circulares
 
 .galeria {
   display: flex;
@@ -64,20 +58,20 @@ article {
 }
 
 .pet {
-  
+
   width: 20%;
   display: flex;
- // flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 
   .descricao,
   .nome {
-   display: none;
-    }
+    display: none;
+  }
 }
-#descricao{
+
+#descricao {
   font-size: 1.5rem;
   width: 50%;
 }
@@ -87,6 +81,7 @@ article {
   height: 20vh;
   border-radius: 100%;
 }
+
 .secaoFormulario {
   background-color: #f59e0b;
   padding: 4rem 1rem;
@@ -167,6 +162,7 @@ article {
     }
   }
 }
+
 footer {
   background-color: #3f4752;
   color: white;
@@ -202,5 +198,93 @@ footer img {
   padding: 1rem;
   font-size: 0.8rem;
   border-top: 1px solid #8490a0;
+  font-weight: 200;
+
 }
+@media (max-width: 414px) {
+
+  header {
+    width: 100%;
+  }
+
+  .banner {
+      height: auto;
+    article {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+
+    #fotoGrande {
+      width: 100%;
+    }
+
+    .infoPet {
+      padding: 1rem;
+    }
+
+    #nomeDoPet {
+      font-size: 2rem;
+    }
+
+    #descricao {
+      width: 100%;
+    }
+  }
+
+
+.galeria {
+
+    width: 100%;
+
+    background-color: #2C2E96;
+
+
+
+    display: flex;
+
+    flex-wrap: wrap;      // permite quebrar linha
+
+    justify-content: center;
+
+    gap: 1.5rem;
+
+
+
+    padding: 2rem 0;
+
+
+
+    height: auto;         // remove qualquer height fixo
+
+  }
+
+
+
+  .pet {
+
+    width: 45%;           // força 2 por linha
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+
+
+
+  .imgPet {
+
+    width: 100%;
+
+    border-radius: 50%;   // deixa redonda
+
+  }
+
+
+
+}
+
 

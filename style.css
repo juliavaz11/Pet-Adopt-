@@ -182,4 +182,51 @@ footer img {
   padding: 1rem;
   font-size: 0.8rem;
   border-top: 1px solid #8490a0;
+  font-weight: 200;
+}
+
+@media (max-width: 414px) {
+  header {
+    width: 100%;
+  }
+  .banner {
+    height: auto;
+  }
+  .banner article {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner #fotoGrande {
+    width: 100%;
+  }
+  .banner .infoPet {
+    padding: 1rem;
+  }
+  .banner #nomeDoPet {
+    font-size: 2rem;
+  }
+  .banner #descricao {
+    width: 100%;
+  }
+  .galeria {
+    width: 100%;
+    background-color: #2C2E96;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    height: auto;
+  }
+  .pet {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgPet {
+    width: 100%;
+    border-radius: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
